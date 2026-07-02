@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h2 class="logo">RH<span> </span></h2>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="profile.html">Profile</a>
+            <a href="projects.html">Projects</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="page-section">
+
+        <h2 class="section-title fade-in">About <span>Me</span></h2>
+        <div class="section-divider fade-in"></div>
+
+        <div class="about-grid">
+            <div class="fade-in">
+                <div class="about-img-wrap">
+                    <i class="fas fa-user placeholder-icon"></i>
+                    <!-- Replace with: <img src="your-photo.jpg" alt="K. Rahul"> -->
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-box fade-in">
+                        <h3>3+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-box fade-in">
+                        <h3>3</h3>
+                        <p>Years of Study</p>
+                    </div>
+                    <div class="stat-box fade-in">
+                        <h3>3+</h3>
+                        <p>Technologies</p>
+                    </div>
+                    <div class="stat-box fade-in">
+                        <h3>100%</h3>
+                        <p>Dedication</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-text">
+                <h3 class="fade-in" style="font-size:1.3rem; color:var(--dark); margin-bottom:16px;">
+                    A Student Who Loves to Build Things
+                </h3>
+                <p class="fade-in">
+                    Hi! I'm K. Rahul, a Information technology student with a genuine passion for 
+                    web development and software engineering. I enjoy the entire process of 
+                    building — from designing clean interfaces to writing the logic that makes 
+                    them work.
+                </p>
+                <p class="fade-in">
+                    I believe that great code is not just functional — it's readable, 
+                    maintainable, and purposeful. Whether it's a personal project or a 
+                    collaborative effort, I bring curiosity and attention to detail to 
+                    everything I work on.
+                </p>
+                <p class="fade-in">
+                    Outside of coding, I enjoy exploring new technologies, contributing 
+                    to open-source, and constantly finding ways to improve my craft.
+                </p>
+
+                <div class="fade-in" style="margin-top: 24px;">
+                    <a href="contact.html" style="text-decoration:none;">
+                        <button style="
+                            padding: 11px 28px; 
+                            background: var(--accent); 
+                            color: #fff; 
+                            border: none; 
+                            border-radius: 25px; 
+                            font-size: 0.9rem; 
+                            font-weight: 600; 
+                            cursor: pointer;
+                            font-family: Poppins, sans-serif;
+                            transition: all 0.3s ease;
+                        "
+                        onmouseover="this.style.background='#a020d4'; this.style.transform='translateY(-2px)'"
+                        onmouseout="this.style.background='var(--accent)'; this.style.transform='none'"
+                        >
+                            Get In Touch &nbsp;<i class="fas fa-paper-plane"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <p>© 2024 <span>K. Rahul</span>. All rights reserved.</p>
+    </footer>
+
+    <button id="scrollTop" title="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
