@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h2 class="logo">RH<span>.</span></h2>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="profile.html">Profile</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="page-section">
+
+        <h2 class="section-title fade-in">My <span>Projects</span></h2>
+        <div class="section-divider fade-in"></div>
+
+    
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+    <div class="project-card fade-in" data-category="c">
+        <div class="project-thumb">
+            <i class="fas fa-users"></i>
+        </div>
+        <div class="project-body">
+            <h3>Student Management System</h3>
+            <p>A console-based student management system built in C. Allows adding, viewing, updating, and deleting student records efficiently.</p>
+            <div class="project-tags">
+                <span class="tag">C</span>
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/karrarahul18-prog/STUDENT-MANAGEMENT-SYSTEM"><i class="fab fa-github"></i> Code</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card fade-in" data-category="c">
+        <div class="project-thumb" style="background: linear-gradient(135deg, rgba(0,120,255,0.15), rgba(0,255,200,0.1));">
+            <i class="fas fa-gamepad"></i>
+        </div>
+        <div class="project-body">
+            <h3>2048 Game</h3>
+            <p>A terminal-based implementation of the popular 2048 puzzle game built in C. Uses keyboard input to slide and merge numbered tiles on a 4×4 grid.</p>
+            <div class="project-tags">
+                <span class="tag">C</span>
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/karrarahul18-prog/2048-game"><i class="fab fa-github"></i> Code</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card fade-in" data-category="web">
+        <div class="project-thumb" style="background: linear-gradient(135deg, rgba(123,5,163,0.15), rgba(0,255,255,0.08));">
+            <i class="fas fa-globe"></i>
+        </div>
+        <div class="project-body">
+            <h3>Personal Portfolio Website</h3>
+            <p>A fully responsive multi-page portfolio site built from scratch using HTML, CSS, and vanilla JavaScript. Features smooth animations, active nav highlighting, and a contact form.</p>
+            <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+                <a href="#"><i class="fab fa-github"></i> Code</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card fade-in" data-category="python">
+        <div class="project-thumb" style="background: linear-gradient(135deg, rgba(255,80,80,0.15), rgba(255,150,0,0.1));">
+            <i class="fas fa-shield-alt"></i>
+        </div>
+        <div class="project-body">
+            <h3>Credit Card Fraud Detection</h3>
+            <p>A machine learning-based web app that detects fraudulent credit card transactions. Built with Python and data science libraries, with a front-end interface using HTML, CSS, and JavaScript.</p>
+            <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/karrarahul18-prog/Credit-Card-Fraud-Detection"><i class="fab fa-github"></i> Code</a>
+            </div>
+        </div>
+        
+    </div>
+    
+
+</div>
+    </section>
+
+    <footer>
+        <p>© 2026 <span>K. Rahul</span>. All rights reserved.</p>
+    </footer>
+
+    <button id="scrollTop" title="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
